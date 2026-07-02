@@ -21,6 +21,7 @@ const createTodos = async (req, res) => {
   }
 };
 
+// Get all todos with pagination, search, and sorting
 const getAllTodos = async (req, res) => {
   try {
     const {
