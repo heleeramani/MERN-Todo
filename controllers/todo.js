@@ -32,7 +32,7 @@ const getAllTodos = async (req, res) => {
       completed,
       sortBy = "createdAt",
       sortOrder = "desc",
-    } = req.query;0.
+    } = req.query;
 
     const currentPage = parseInt(page);
     const pageLimit = parseInt(limit);
