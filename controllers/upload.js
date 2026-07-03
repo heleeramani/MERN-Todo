@@ -1,3 +1,4 @@
+//  upload image
 const uploadImage = async (req, res) => {
     try {
         res.status(200).json({
