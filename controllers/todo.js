@@ -15,7 +15,7 @@ const createTodos = async (req, res) => {
       .status(201)
       .json({ status: 201, message: "Todo Created Successfully", data: todo });
   } catch (error) {
-    console.log(error);
+    console.log(error); 
 
     return res.status(500).json({ message: "Internal Server Error" });
   }
